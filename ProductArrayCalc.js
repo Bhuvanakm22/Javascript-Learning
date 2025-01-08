@@ -4,7 +4,6 @@ function SingleStudentCheck(Student_array_list)
 let Single_student_number=0;
 let arraySampleList= new Array();
 arraySampleList=[...Student_array_list];  // Push/copy array of data to the another array
-
     for(i=0;i<Student_array_list.length;i++)
     {
         let student_number=0;
@@ -40,9 +39,6 @@ function getData()
     res=SingleStudentCheck_effective(arrays.split(","));
     return res
 }
-// let res=SingleStudentCheck([2,6,5,6,2]);
-
-// printData(res);
 function onLoadOrSubmit()
 {
     let result=""

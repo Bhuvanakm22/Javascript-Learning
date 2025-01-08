@@ -3,9 +3,6 @@
 //console.trace();
 const apiKey = 'c8a36d6fc811ef9e1d9963c6f251e7c3';
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}`;
-
-
-
 fetch(apiUrl)
     .then(response => {
         if (!response.ok) {
